@@ -5,3 +5,171 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+html ,body {
+    height: 100%;
+    background-color: #f7f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+main {
+    height: 100vh;
+    background-color: #f7f9f9;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #0a2c42;
+    color: #f7f9f9;
+}
+
+footer p {
+    margin: 0 20px 0 80px;
+}
+
+/* LANDING____________________ */
+.land-container {
+    justify-content: center;
+}
+
+.land-container .col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.land-container img {
+    padding-bottom: 50px;
+}
+
+.land-container h1 {
+    font-size: 20px;
+    color: #f7f9f9;
+    background-color: #2081c3;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.land-container a {
+    text-decoration: none;
+}
+/*____________________________ */
+
+/* Random Beer____________________  */
+.rand-beer-card {
+    display: flex;
+    flex-direction: row;
+    margin: 0 200px 0 200px;
+    padding: 50px 0 0 0;
+}
+
+.rand-beer-card div{
+    width: fit-content;
+}
+
+.rand-beer-card .item-align{
+    width: 0 !important;
+}
+
+.rand-beer-card img{
+    height: 300px;
+}
+
+.rand-beer-card .col-md-8{
+    margin: 0 0 0 50px;
+    width: 800px;
+}
+
+.rand-beer-card h1{
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.rand-beer-card h2{
+    padding: 30px 0 10px 0;
+    font-size: 17px;
+    color: #bfbfbf;
+}
+
+.rand-beer-card p{
+    font-size: 15px;
+}
+
+.rand-beer-card h3{
+    padding: 15px 0 20px 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.rand-beer-card ul{
+    padding-left: 50px;
+    margin-bottom: 10px !important;
+}
+
+.rand-beer-card li{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+/*________________________________  */
+.navbar {
+    background-color: #2081c3 !important;
+    height: 80px !important;
+}
+
+.navbar-nav{
+    padding-left: 80px;
+}
+
+/* Beers page___________________ */
+.cardcontainer {
+    display:flex;
+    padding: 0 100px 0 100px;
+}
+
+.itemcard {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.cardcontainer .image-align {
+    display: flex;
+    justify-content: center !important;
+    margin: 50px 0 50px 0;
+    width: 100%;
+}
+
+.cardcontainer .itemcardtext h1{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.cardcontainer .itemcardtext h2{
+    font-size: 13px;
+    color: #bfbfbf;
+    padding-bottom: 12px;
+}
+.cardcontainer .itemcardtext p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* _____________________________ */
+
+.itemcardtext {
+    width: 100%;
+}
